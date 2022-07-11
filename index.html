@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header id="header">
+        <h2>Mi Portfolio</h2>
+        <nav id="nav">
+            <ul id="links">
+                <li>
+                    <a href="#inicio">Inicio</a>
+                    <span class="linea seleccionado"></span>
+                </li>
+                <li>
+                    <a href="#sobremi">Sobre Mí</a>
+                    <span class="linea"></span>
+                </li>
+                <li>
+                    <a href="#portfolio">Proyectos</a>
+                    <span class="linea"></span>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                    <span class="linea"></span>
+                </li>
+            </ul>
+        </nav>
+        <div class="nav-bar" id="nav-bar">
+            <i class="fa-solid fa-bars"></i> 
+        </div>
+    </header>
+    <!-- Inicio -->
+    <section id="inicio">
+        <div class="contenedor-img">
+            <div class="imagen">
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="info">
+                <h3>
+                    Camila Galarza
+                </h3>
+                <span>Diseño y Desarrollo Web</span>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/galarzacamilaf/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.behance.net/camilagalarza1" target="_blank"><i class="fa-brands fa-behance-square"></i></a>
+                    <a href="https://github.com/Camfabi" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sobre mí-->
+    <section id="sobremi">
+        <div class="contenido">
+            <div class="left">
+                <div class="contenedor-img">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="right">
+                <div class="info">
+                    <span>SOBRE MÍ</span>
+                    <h3>Diseño y Desarrollo Web</h3>
+                    <p>¡Hola!👋 <br>
+                        Soy Camila, una persona curiosa que siempre busca aprender algo nuevo relacionado con la tecnología y el diseño.
+                        Actualmente estudio Desarrollo Web Full Stack. Previamente, estudié Diseño Audiovisual y a la par hice cursos de diseño gráfico y animación.<br>
+                        Me considero muy buena trabajando en equipo, soy meticulosa y cuento con buenas habilidades de comunicación. 
+                        Me apasiona formar parte de proyectos que impliquen un desafío y me permitan crecer profesionalmente. <br>
+                        ¡En mi tiempo libre me encontrarás mirando Pinterest!</p>
+                        <a href="imagenes/Galarza Camila .pdf" download class="btn-descargar" target="_blank">Descargar Cv</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills">
+            <div class="set">
+                <span class="fa-solid fa-palette"></span>
+                <h2>Suite Adobe</h2>
+                <div class="list">
+                    <label>Adobe Premiere</label>
+                    <i class="fa-solid fa-clapperboard"></i>
+                </div>
+                <div class="list">
+                    <label>Adobe Illustrator</label>
+                    <i class="fa-solid fa-bezier-curve"></i>
+                </div>
+                <div class="list">
+                    <label>Adobe Effects</label>
+                    <i class="fa-solid fa-diamond"></i>
+                </div>
+                <div class="list">
+                    <label>Adobe Photoshop</label>
+                    <i class="fa-solid fa-eye-dropper"></i>
+                </div>
+            </div>
+
+            <div class="set">
+                <span class="fa-solid fa-globe"></span>
+                <h2>Desarrollo Web</h2>
+                <div class="list">
+                    <label>Html</label>
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="list">
+                    <label>Css</label>
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="list">
+                    <label>JavaScript</label>
+                    <i class="fa-brands fa-js-square"></i>
+                </div>                   
+            </div>
+
+            <div class="set">
+                <span class="fa-solid fa-wand-magic-sparkles"></span>
+                <h2>Otros</h2>
+                <div class="list">
+                    <label>Canva</label>
+                    <i class="fa-solid fa-paintbrush"></i>
+                </div>
+                <div class="list">
+                    <label>Prezi</label>
+                    <i class="fa-solid fa-file-powerpoint"></i>
+                </div>
+                <div class="list">
+                    <label>Spline</label>
+                    <i class="fa-solid fa-cube"></i>
+                </div>                   
+            </div>
+        </div>
+    </section>
+    <!--Proyectos-->
+    <section id="portfolio">
+        <div class="contenido">
+            <div class="encabezado-portfolio">
+                <div class="left">
+                    <span>PROYECTOS</span>
+                    <h3>Mis trabajos </h3>
+                    <p> Acá vas a encontrar algunos de mis últimos trabajos en el área de desarrollo, animación y diseño.</p>
+                </div>
+                <!--<div class="right" id="categorias">
+                    <a href="javscript:void(0)" class="activada">Todos</a>
+                    <a href="javscript:void(0)">Desarrollo</a>
+                    <a href="javscript:void(0)">Diseño</a>
+                </div>-->
+            </div>
+            <div class="galeria" id="galeria">
+                <div class="proyecto develop">
+                    <a href="https://mansilvar11.github.io/rc.github.lo/" target="_blank">
+                        <img src="imagenes/1.png" alt="">
+                    </a>
+                    <h3>Desarrollo Web</h3>
+                </div>
+                <div class="proyecto desing">
+                    <a href="https://www.behance.net/gallery/133304715/English-Open-House" target="_blank">
+                        <img src="imagenes/2.png" alt="">
+                    </a>
+                    <h3>Branding</h3>
+                </div>
+                <div class="proyecto desing">
+                    <a href="https://www.behance.net/gallery/124572627/Loquitas-Branding" target="_blank">
+                        <img src="imagenes/3.png" alt="">
+                    </a>
+                    <h3>Branding</h3>
+                </div>
+                <div class="proyecto develop">
+                    <a href="">
+                        <img src="imagenes/4.png" alt="">
+                    </a>
+                    <h3>Portfolio Website</h3>
+                </div>
+                <div class="proyecto desing">
+                    <a href="https://www.behance.net/gallery/138343423/Qatar-2022" target="_blank">
+                        <img src="imagenes/5.png" alt="">
+                    </a>
+                    <h3>Animación Mundial</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="contact-conteiner">
+            <div class="contact-info">
+                <span>
+                    CONTACTO
+                </span>
+                <h3>
+                    Soy un talento disponible, trabajemos juntos!
+                </h3>    
+            </div> 
+        </div>
+    </section>
+    <section id="infocard">
+        <div class="contact-items">
+                <div class="card">
+                        <a href="https://api.whatsapp.com/send/?phone=541157058846&text&type=phone_number&app_absent=0" target="_blank"><i class="card-icon fa-brands fa-whatsapp"></i></a>
+                        <p>
+                            +54 11-5705-8846
+                        </p>
+                </div>
+                <div class="card">
+                        <a href="mailto: cami.galarza@gmail.com" target="_blank"><i class="card-icon fa-solid fa-envelope"></i></a>
+                        <p>
+                            cami.galarza@gmail.com
+                        </p>
+                </div>
+                <div class="card">
+                    <a href="https://www.linkedin.com/in/galarzacamilaf/" target="_blank"><i class="card-icon fa-brands fa-linkedin"></i></a>
+                        <p>
+                            /camilagalarzaf
+                        </p>
+                </div>
+            </div>
+
+    
+    <!-- Footer -->
+    <footer>
+        2022 - Hecho por Camila Galarza • Todos los derechos reservados  &copy
+    </footer>
+</body>
+</html>
